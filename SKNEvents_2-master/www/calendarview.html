@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/lib.css" />
+    
+    <!-- Jquery Mobile -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>    
+    <!-- End Jquery Mobile -->
+    <!--<script type="text/javascript" src="js/getData.js"></script>    -->
+    <script type="text/javascript" src="js/general.js"></script>
+    <!--<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.als-1.7.min.js"></script> -->
+    <!-- Calendar -->
+    <link rel='stylesheet' href='js/fullcalendar.css' />
+    <link rel='stylesheet' href='js/fullcalendar.print.css' media='print' />
+    <script src='js/lib/moment.min.js'></script>
+    <!-- <script src='js/lib/jquery.min.js'></script> -->
+    <script src='js/fullcalendar.min.js'></script>
+    <!-- End Calendar -->
+    <title>Mendix Rest</title>
+    <style type="text/css">
+    #loadingcal {
+        display: none;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div data-role="page" id="CalendarView">
+        <div data-role="panel" id="myPanel" data-swipe-close="true" data-display="overlay" data-position="right"  data-position-fixed="true">
+            <div class="LogoPanel"><img src="img/Events$Coat_of_Arms.png" width="100%" height="150"></div>
+            <ul data-role="listview" class="PanelItems">
+                <!-- Menu items goes here..-->
+            </ul>
+        </div>
+
+        <div data-role="header">
+            <a href="#HomePage" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+            <h1 class="AppHeader">SKN Events</h1>
+            <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-shadow ui-btn-icon-left">Menu</a>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h3>Calendar View.</h3>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div id='loadingcal'>loading...</div>
+            <div id="calendarz"></div>
+            <div id="testzzz"></div>
+        </div>
+
+        <div data-role="footer" class="MyFooter">
+            <h1></h1>
+        </div>
+    </div>
+    
+</body>
+
+</html>

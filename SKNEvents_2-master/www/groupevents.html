@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/lib.css" />
+    <!-- Calendar -->
+    <link rel='stylesheet' href='js/fullcalendar-2.7.3/fullcalendar.css' />
+    <link rel='stylesheet' href='js/fullcalendar-2.7.3/fullcalendar.print.css' media='print' />
+    <script src='js/fullcalendar-2.7.3/lib/moment.min.js'></script>
+    <script src='js/fullcalendar-2.7.3/fullcalendar.min.js'></script>
+    <!-- End Calendar -->
+    <!-- Jquery Mobile -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>    
+    <!-- End Jquery Mobile -->
+    <!--<script type="text/javascript" src="js/getData.js"></script>  -->
+    <script type="text/javascript" src="js/general.js"></script>
+    <title>Events</title>
+</head>
+
+<body>
+
+    <div data-role="page" id="GroupEvents">
+        <div data-role="panel" id="myPanel" data-swipe-close="true" data-display="overlay" data-position="right"  data-position-fixed="true">
+            <div class="LogoPanel"><img src="img/Events$Coat_of_Arms.png" width="aut0" style="margin-left:16%;" height="200"></div>
+            <ul data-role="listview" class="PanelItems">
+                
+            </ul>
+        </div>
+
+        <div data-role="header">
+            <a href="#HomePage" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+            <h1 class="AppHeader">SKN Events</h1>
+            <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-shadow ui-btn-icon-left">Menu</a>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <a class="ui-btn ui-btn-b" data-rel="back">Go Back</a>
+            <h3 class="EventHeader"></h3>
+        </div>
+        
+        <div class="Listing">
+            <div data-role="main" class="ui-content">
+                <!-- <ul class="Pages"><li class="PageListHeader">Pages:</li></ul> -->
+                
+                <form class="ui-filterable SearchEventsInput">
+                    <input id="myFilter" data-type="search" placeholder="Search Events..">
+                </form>
+
+                <ol data-role="listview" class="GroupEventlistitems" data-inset="true" data-filter="true" data-input="#myFilter">
+                    <!-- Names goes here..-->
+                </ol>
+            </div>
+        </div>
+
+        <div data-role="footer" class="MyFooter">
+            <h1></h1>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>-->
+</body>
+
+</html>

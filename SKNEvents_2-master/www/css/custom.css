@@ -1,0 +1,192 @@
+#myPanel {
+    background: #2370DC;
+}
+
+/*.ui-filterable{
+    display: none;
+}*/
+.HomeSearchInput{
+    width: 80%; 
+    float: left; 
+    /*margin-right: 20px;*/
+}
+
+.HomeSearchInput input{
+    margin-top:4px;
+    padding:10px;
+}
+
+.HomeSearchSubmit{
+    width: 18%; 
+    float: left;
+}
+
+.ui-header{
+    height: 45px!important;
+    background-color: #2370DC!important;
+    border-color: #4B5360!important;
+}
+
+.ui-header h1{
+    color: #D6D3D3;
+}
+
+.ui-footer{
+    background-color: #4B5360 !important;
+    border-color: #4B5360 !important;
+}
+
+.ui-footer h1{
+    color: white;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    border-color: #BDBCBC!important;
+    background-color: #BDBCBC!important;
+}
+
+.ui-listview h3 {
+    max-width: 92%;
+}
+
+.body{
+	padding: 20px;
+}
+
+.BioClick{
+	float: left;
+}
+
+.listingitem{
+	margin: 0 auto;
+	float: left;
+	width: 100%;
+}
+
+.listingitem hr{
+	float: left;
+	width: 100%;
+	background-color: black;
+}
+
+input.searchbox {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    margin: 0 auto;
+    width: 55%;
+    margin-right: 10px;
+}
+
+input.submit {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+.Searchdiv{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#overlay {
+    position: absolute;
+    left: 36%;
+    top: 50%;
+    /* bottom: 0; */
+    width: 25%;
+    height: 10%;
+    /* right: 0; */
+    background: #000;
+    border-radius: 10px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+#loading {
+    width: 50px;
+    height: 57px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -28px 0 0 -25px;
+}
+
+.Details{
+	display: none;
+}
+
+.LogoPanel{
+	float: left;
+    margin-bottom: 15px;
+}
+
+#smallover{
+	left: 30%!important;
+    top: 34%!important;
+    width: 200px!important;
+    height: 100px!important;
+}
+
+.Pages{
+    padding: 0!important;
+}
+
+.Pages li{
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.featlist .featlistitems {
+    display: none;
+    list-style: none;
+    border:1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f6f6f6;
+    height: 200px;
+    margin: 0 auto;
+    width: 80%;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+    box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+
+.featlist .featlistitems:first-child {
+    display: block;
+}
+
+.featlist {
+    padding: 0;
+    height: 200px;
+}
+.catdet{
+    font-size: 12px;
+    text-align: left!important;
+}
+/*.featlistitems{
+    height: 150px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 0px;
+}
+
+.featlistitems li{
+    width: 100%;
+    display: inline;
+}*/
+
+.featlistpagination li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #544f4f;
+    /*border: 1px solid #544f4f;*/
+}
